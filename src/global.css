@@ -1,0 +1,14 @@
+body {
+  background: #3d85d8;
+  color: #fdfdfd;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}

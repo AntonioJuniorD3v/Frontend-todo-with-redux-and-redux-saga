@@ -1,0 +1,37 @@
+#input-todo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#input-todo input{
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  color: #595959;
+  font-size: 2rem;
+  padding: .5rem 1rem;
+  margin-right: 1rem;
+  vertical-align: middle;
+  width: 70%;
+}
+
+#input-todo input:focus{
+  outline: none;
+}
+
+#input-todo button{
+  background: #00cc99;
+  border: none;
+  border-radius: 5px;
+  color: #fdfdfd;
+  padding: 1rem 1.5rem;
+  transition: all .1s linear;
+}
+
+#input-todo button:hover {
+  background: #009973;
+  cursor: pointer;
+}
+#input-todo button:focus {
+  outline: none;
+}

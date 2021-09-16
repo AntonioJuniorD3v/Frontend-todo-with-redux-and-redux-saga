@@ -1,0 +1,30 @@
+.todo-table {
+  border-collapse: collapse;
+  margin: 2rem 0;
+  width: 500px;
+}
+.todo-table thead {
+  background: #dcdcdc;
+}
+.todo-table thead th {
+  color: #333333;
+  padding: 1rem;
+  text-align: center;
+}
+.todo-table tbody td {
+  padding: .5rem 1rem;
+  text-align: center;
+}
+
+.todo-table-btn {
+  background: #ff8080;
+  border: none;
+  border-radius: 5px;
+  color: #fdfdfd;
+  padding: .5rem 1rem;
+  transition: all .1s linear;
+}
+.todo-table-btn:hover {
+  background: #ff4d4d;
+  cursor: pointer;
+}
